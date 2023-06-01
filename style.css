@@ -37,6 +37,11 @@ body {
     font-weight: 800;
 }
 
+.introscreen .tap{
+   color: gray ;
+   font-size: 0.5em;
+   top: 60%;
+}
 
 
 .loadimages{
@@ -199,8 +204,10 @@ p {
    position: absolute;
    top: 50%;
    left: 50%;
-   color: black;
    transform: translateX(-50%) translateY(-50%);
+}
+.cardFront .tap{
+   color: black;
 }
 
 .cardInside {
